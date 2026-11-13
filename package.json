@@ -1,0 +1,17 @@
+{
+  "name": "hana-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "하나은행 APP 프로토타입 (Figma 1:1 재현)",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --serve"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
